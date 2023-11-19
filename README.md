@@ -2,6 +2,12 @@
 
 Create an interactive 3D scatter plot to visualize process uniformity inside a deposition chamber.
 
+For a demo, run the Shiny app from Github repo with the codes below:
+
+```{r}
+shiny::runGitHub("3D_Scatter_Plot_Dashboard", "chsueh2", subdir = "HZO_SIR/") 
+```
+
 Key features:
 
 - Shiny Dashboards with Sidebar and Dynamic Tabs
@@ -39,14 +45,6 @@ Files and directories:
 - `/data`: raw data files for demo
 - `/screenshots`: screenshots of the app
 - `/HZO_SIR`: Shiny app
-
-## App Demo
-
-For a demo, run the Shiny app from Github repo with the codes below:
-
-```{r}
-shiny::runGitHub("3D_Scatter_Plot_Dashboard", "chsueh2", subdir = "HZO_SIR/") 
-```
 
 ## Screenshots
 
